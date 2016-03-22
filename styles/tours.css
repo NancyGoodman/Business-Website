@@ -123,14 +123,6 @@ p {
   clear: both;
   padding-top: 10px;
   float: left;
-  width: 47%;
-  margin-left: 12%;
-  background-color: #ededed;
-}
-.story2 {
-  clear: both;
-  padding-top: 10px;
-  float: left;
   width: 76%;
   margin-left: 12%;
   background-color: #ededed;
@@ -272,13 +264,6 @@ a:hover {
 
 @media all and (max-width: 850px) and (min-width: 690px){
  .story{
-  float: none;
-  margin-left: 12%;
-  }
-}
-
-@media all and (max-width: 850px) and (min-width: 690px){
- .story2{
   float: none;
   margin-left: 12%;
   }
