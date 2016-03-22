@@ -41,8 +41,18 @@ h1 {
   font-size: 38px;
   margin-bottom: 0px;
   line-height: 40px;
-/*  padding-bottom: 10px;
-*/  overflow: hidden;
+  overflow: hidden;
+}
+
+h2 {
+  color: #088A08;
+  text-align: left;
+  font-family: Times;
+  font-weight: bold;
+  font-size: 38px;
+  margin-bottom: 0px;
+  line-height: 38px;
+  overflow: hidden;
 }
 
 nav {
@@ -109,16 +119,19 @@ p {
   line-height: 21px;
 }
 
-/*i {
-  font-style: italic;
-}
-*/
-
 .story {
   clear: both;
   padding-top: 10px;
   float: left;
   width: 47%;
+  margin-left: 12%;
+  background-color: #ededed;
+}
+.story2 {
+  clear: both;
+  padding-top: 10px;
+  float: left;
+  width: 76%;
   margin-left: 12%;
   background-color: #ededed;
 }
@@ -138,6 +151,12 @@ h5 {
   font-family: Times;
   font-size: 20px;
   font-weight: strong;
+}
+
+span.greenbold {
+  font-size: 17px;
+  color: #088A08;
+  font-family: Times;
 }
 
 .caption {
@@ -253,6 +272,13 @@ a:hover {
 
 @media all and (max-width: 850px) and (min-width: 690px){
  .story{
+  float: none;
+  margin-left: 12%;
+  }
+}
+
+@media all and (max-width: 850px) and (min-width: 690px){
+ .story2{
   float: none;
   margin-left: 12%;
   }
