@@ -155,24 +155,21 @@ h4 {
   color: #088A08;
   padding-top: 17px;
   padding-bottom: 9px;
-/*  font-family: Georgia;
-*/  font-size: 20px;
+  font-size: 20px;
   font-weight: strong;
 }
 
 h5 {
   color: #088A08;
   padding-bottom: 9px;
-/*  font-family: Georgia;
-*/  font-size: 20px;
+  font-size: 20px;
   font-weight: strong;
 }
 
 span.greenbold {
   font-size: 18px;
   color: #088A08;
-/*  font-family: Georgia;
-*/}
+}
 
 .caption {
   font-family: Helvetica;
@@ -318,6 +315,12 @@ footer {
   float: right;   
   border-radius: 20px;
   margin-left: 5px;
+}
+
+.media {
+    float: right;   
+    border-radius: 20px;
+    margin-left: 5px;
 }
 @media all and (max-width: 850px) and (min-width: 690px){
  .story{
